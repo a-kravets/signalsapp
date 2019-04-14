@@ -56,51 +56,51 @@
   margin: 20px auto;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 62px;
+  font-size: 72px;
   font-weight: bold;
 }
 
-// MEDIA FUCKING QUERIES
-@media screen and (max-width: 992px) {
-  .head-container h1 {
-    margin: 0 auto;
+// MEDIA QUERIES
+// @media screen and (max-width: 992px) {
+//   .head-container h1 {
+//     margin: 0 auto;
 
-    font-size:82px !important;
-    font-weight: bold;
-  }
-  .head-container .btn{
-    color: white;
-    position: relative;
-    top: 80px;
-    width: 120px;
-    border-radius: 4px;
-    background: #1EDD88;
-    transition: background 0.3s ease;
-    height: 40px;
-    font-size: 22px;
-    padding: 6px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .head-container h1 {
-    margin: 0 auto;
-    padding: 0;
-    font-size:12px;
-    font-weight: bold;
-  }
-  .head-container .btn{
-    color: white;
-    position: relative;
-    top: 80px;
-    width: 120px;
-    border-radius: 4px;
-    background: #1EDD88;
-    transition: background 0.3s ease;
-    height: 40px;
-    font-size: 22px;
-    padding: 6px;
-  }
-}
+//     font-size:82px !important;
+//     font-weight: bold;
+//   }
+//   .head-container .btn{
+//     color: white;
+//     position: relative;
+//     top: 80px;
+//     width: 120px;
+//     border-radius: 4px;
+//     background: #1EDD88;
+//     transition: background 0.3s ease;
+//     height: 40px;
+//     font-size: 22px;
+//     padding: 6px;
+//   }
+// }
+// @media screen and (max-width: 600px) {
+//   .head-container h1 {
+//     margin: 0 auto;
+//     padding: 0;
+//     font-size:12px;
+//     font-weight: bold;
+//   }
+//   .head-container .btn{
+//     // color: white;
+//     position: relative;
+//     top: 80px;
+//     width: 120px;
+//     border-radius: 4px;
+//     // background: #1EDD88;
+//     transition: background 0.3s ease;
+//     height: 40px;
+//     font-size: 22px;
+//     padding: 6px;
+//   }
+// }
 // slides
 
 .slider {
@@ -118,20 +118,20 @@
 .slide1 {
   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(ishant-mishra-1349433-unsplash.jpg)no-repeat center;
   background-size: cover;
-  animation:fade 8s infinite;
-  -webkit-animation:fade 8s infinite;
+  animation:fade 12s infinite;
+  -webkit-animation:fade 12s infinite;
 }
 .slide2 {
-  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(m-b-m-795202-unsplash.jpg)no-repeat center;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(kevin-ku-364843-unsplash.jpg)no-repeat center;
   background-size: cover;
-  animation:fade2 8s infinite;
-  -webkit-animation:fade2 8s infinite;
+  animation:fade2 12s infinite;
+  -webkit-animation:fade2 12s infinite;
 }
 .slide3 {
-  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(mark-finn-540442-unsplash.jpg)no-repeat center;
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(blur-chart-data-159888.jpg)no-repeat center;
   background-size: cover;
-  animation:fade3 8s infinite;
-  -webkit-animation:fade3 8s infinite;
+  animation:fade3 12s infinite;
+  -webkit-animation:fade3 12s infinite;
 }
 @keyframes fade
 {

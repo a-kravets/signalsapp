@@ -3,6 +3,7 @@
 
 
 
+
 <div class='banner slider'>
     <div class='banner slide1'></div>
     <div class='banner slide2'></div>
@@ -10,12 +11,25 @@
 
      <div class="head-container better-form-search">
 
-    <h1>Signals App</h1>
-    <p>dsclkjnsd;</p>
+    <h1>Trading Signals App</h1>
+    <p>95% of traders fail. Join the top 5%</p>
 
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-4 col-md-4 offset-md-4">
 
+      <div class="form-login">
+    <%= simple_form_for @trader, url: traders_url, method: :post do |f| %>
+      <%= f.input :email, label: false %>
+
+      <%= f.submit 'Sign Up For Free Trading Signals', class: 'btn btn-danger' %>
+    <% end %>
+      </div>
 
   </div>
 </div>
 
-<h2 class="recs">Recommendations</h2>
+</div>
+</div>
+</div>
+
