@@ -1,6 +1,7 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+    <!-- <h1>Trading Signals App</h1> -->
+    <%#= image_tag "m-b-m-795202-unsplash.jpg", class: 'rounded' %>
     <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,6 +11,15 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+       <li class="nav-item active">
+          <%= link_to "Home", "/", class: "nav-link" %>
+        </li>
+        <li class="nav-item active">
+          <%= link_to "Signals Performance", "/", class: "nav-link" %>
+        </li>
+        <li class="nav-item active">
+          <%= link_to "Registration", "/", class: "nav-link" %>
+        </li>
       <% if user_signed_in? %>
         <li class="nav-item active">
           <%= link_to "Home", "#", class: "nav-link" %>
@@ -27,7 +37,7 @@
         </li>
       <% else %>
         <li class="nav-item">
-          <%= link_to "Login", new_user_session_path, class: "nav-link" %>
+          <%#= link_to "Login", new_user_session_path, class: "nav-link" %>
         </li>
       <% end %>
     </ul>

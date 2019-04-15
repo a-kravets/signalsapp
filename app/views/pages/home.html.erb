@@ -1,15 +1,10 @@
 
-
-
-
-
-
 <div class='banner slider'>
     <div class='banner slide1'></div>
     <div class='banner slide2'></div>
     <div class='banner slide3'></div>
 
-     <div class="head-container better-form-search">
+     <div class="head-container">
 
     <h1>Trading Signals App</h1>
     <p>95% of traders fail. Join the top 5%</p>
@@ -20,8 +15,9 @@
 
       <div class="form-login">
     <%= simple_form_for @trader, url: traders_url, method: :post do |f| %>
-      <%= f.input :email, label: false %>
-
+      <%#= f.input :name, label: false, input_html: { class: "form-control form-control-lg", placeholder: "Enter your name" } %>
+      <%#= f.input :phone, label: false, input_html: { class: "form-control form-control-lg", placeholder: "Enter your phone" } %>
+      <%= f.input :email, label: false, input_html: { class: "form-control form-control-lg", placeholder: "Enter your email" } %>
       <%= f.submit 'Sign Up For Free Trading Signals', class: 'btn btn-danger' %>
     <% end %>
       </div>
@@ -32,4 +28,41 @@
 </div>
 </div>
 </div>
+
+
+
+<div class="performance">
+  <div class="container">
+    <div class="row">
+      <h1>Signals Performance</h1>
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="how-it-works">
+  <div class="container">
+    <div class="row">
+      <h1>How It All Works</h1>
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="testimonials">
+  <div class="container">
+    <div class="row">
+      <h1>Testimonials</h1>
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </div>
+</div>
+
 
