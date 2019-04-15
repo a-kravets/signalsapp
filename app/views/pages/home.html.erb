@@ -65,3 +65,23 @@
   </div>
 </div>
 
+
+<div class="testimonials">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-4 col-md-4 offset-md-4">
+
+      <div class="form-login">
+    <%= simple_form_for @trader, url: traders_url, method: :post do |f| %>
+      <%#= f.input :name, label: false, input_html: { class: "form-control form-control-lg", placeholder: "Enter your name" } %>
+      <%#= f.input :phone, label: false, input_html: { class: "form-control form-control-lg", placeholder: "Enter your phone" } %>
+      <%= f.input :email, label: false, input_html: { class: "form-control form-control-lg", placeholder: "Enter your email" } %>
+      <%= f.submit 'Sign Up For Free Trading Signals', class: 'btn btn-danger' %>
+    <% end %>
+      </div>
+
+  </div>
+</div>
+
+</div>
+</div>
