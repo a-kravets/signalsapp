@@ -24,3 +24,12 @@
 .footer .fa-dollar-sign {
   color: #D23333;
 }
+
+@media (max-width: 1000px) {
+  .footer-copyright {
+    display: none;
+  }
+  .footer-links a {
+  font-size: 10px;
+  }
+}
