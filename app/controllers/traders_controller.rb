@@ -10,6 +10,7 @@ class TradersController < ApplicationController
     @trader = Trader.new(trader_params)
     if @trader.save
       redirect_to root_path, notice: "Congratulations! You've just subscribed to signals"
+      # SendpulseJob.perform_now
     else
       redirect_to root_path, notice: "Something went wrong. Please enter your email again"
     end

@@ -56,8 +56,22 @@ body {
   border-radius: 50%;
 }
 
-#who-we-are {
+#who-we-are, #reg-form {
   .row {
     text-align: center;
   }
+  h3 {
+    margin-top: 1em;
+    color: black;
+  }
+  p {
+    font-size: 16px;
+    color: black;
+    opacity: .7;
+  }
 }
+
+#reg-form {
+  padding-bottom: 2em;
+}
+
