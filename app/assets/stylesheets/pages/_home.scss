@@ -1,7 +1,63 @@
 // Specific CSS for your home-page
-.how-it-works {
+body {
   background-color: white;
-  h1 {
+}
+.section {
+  background-color: #210069;
+  h2 {
+    text-align: center;
+    padding: 1em 1em;
+    color: white;
+    font-size: 3em;
+  }
+  h3 {
+    color: white;
+  }
+  p {
+    font-size: 20px;
+    color: white;
+    opacity: .7;
+  }
+}
+#performance, #who-we-are {
+  background-color: white;
+  margin-bottom: 3em;
+  h2 {
+    text-align: center;
+    padding: 1em 1em;
+    color: black;
+  }
+  h3 {
+    color: black;
+  }
+  p {
+    font-size: 20px;
+    color: black;
+    opacity: .7;
+  }
+}
+
+.fa-user-plus, .fa-envelope-open, .fa-money-check-alt {
+  color: white;
+  margin-bottom: .5em;
+}
+
+#how-it-works {
+  padding: 3em 3em;
+  .row {
+    text-align: center;
+    padding: 3em 3em;
+  }
+}
+
+#we-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#who-we-are {
+  .row {
     text-align: center;
   }
 }
