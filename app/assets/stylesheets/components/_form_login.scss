@@ -1,9 +1,13 @@
 .form-login {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
   // background: white;
   // padding: 30px 20px;
   margin-top: 50px;
   // border-radius: 3px;
   // box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  text-align: center;
   h2 {
     font-size: 25px;
     font-weight: bold;
@@ -11,12 +15,12 @@
     text-align: center;
   }
   .form-control {
-
+    align-content: center;
     width: 400px;
     padding: 22px;
   }
   .btn {
-    min-width: 400px;
+    width: 400px;
     // margin-left: -137px;
     margin-bottom: 25px;
     // background-color: #00D1AC;
@@ -38,5 +42,16 @@
   a:hover {
     text-decoration: none;
     color: #00D1AC;
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 376px) {
+  .form-login {
+    max-width: 360px !important;
+  }
+  .form-control {
+    max-width: 360px !important;
   }
 }

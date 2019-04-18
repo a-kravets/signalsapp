@@ -75,3 +75,24 @@ body {
   padding-bottom: 2em;
 }
 
+.center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 992px) {
+  #chart {
+    width: 390px;
+    height: 390px;
+  }
+}
+
+@media (max-width: 376px) {
+  #chart {
+    width: 360px;
+    height: 360px;
+  }
+}
